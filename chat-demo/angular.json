@@ -25,10 +25,16 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.*",
+                "input": "./node_modules/chat-lib/assets",
+                "output": "./assets/chat-lib"
+              }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/chat-lib/assets/styles/_styles.scss"
             ],
             "scripts": []
           },

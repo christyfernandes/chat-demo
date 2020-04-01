@@ -36,7 +36,8 @@
               "src/styles.scss",
               "./node_modules/chat-lib/assets/styles/_styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "preserveSymlinks": true
           },
           "configurations": {
             "production": {
